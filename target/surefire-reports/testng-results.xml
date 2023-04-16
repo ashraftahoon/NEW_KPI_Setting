@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="7" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-12T19:55:03 EET" name="KPI Regression Suite" finished-at="2022-05-12T19:55:24 EET" duration-ms="21183">
+    <groups>
+    </groups>
+    <test started-at="2022-05-12T19:55:03 EET" name="Test Regression" finished-at="2022-05-12T19:55:24 EET" duration-ms="21183">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.LoginTest@5c80cf32]" started-at="2022-05-12T19:54:51 EET" name="SetUp" finished-at="2022-05-12T19:55:03 EET" duration-ms="12657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="testsuccessfulllogin()[pri:0, instance:tests.LoginTest@5c80cf32]" started-at="2022-05-12T19:55:03 EET" name="testsuccessfulllogin" finished-at="2022-05-12T19:55:04 EET" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsuccessfulllogin -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@5c80cf32]" started-at="2022-05-12T19:55:04 EET" name="screenshotOnFailure" finished-at="2022-05-12T19:55:04 EET" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testsuccessfulllogin status=SUCCESS method=LoginTest.testsuccessfulllogin()[pri:0, instance:tests.LoginTest@5c80cf32] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.AddKPiSettingTest">
+        <test-method signature="TestAdd_Kpis()[pri:3, instance:tests.AddKPiSettingTest@43f02ef2]" started-at="2022-05-12T19:55:13 EET" name="TestAdd_Kpis" finished-at="2022-05-12T19:55:19 EET" duration-ms="5956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAdd_Kpis -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.AddKPiSettingTest@43f02ef2]" started-at="2022-05-12T19:55:19 EET" name="screenshotOnFailure" finished-at="2022-05-12T19:55:19 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestAdd_Kpis status=SUCCESS method=AddKPiSettingTest.TestAdd_Kpis()[pri:3, instance:tests.AddKPiSettingTest@43f02ef2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+      </class> <!-- tests.AddKPiSettingTest -->
+      <class name="tests.UpdateKpiTest">
+        <test-method signature="UserCanUpdateKpi()[pri:2, instance:tests.UpdateKpiTest@239a307b]" started-at="2022-05-12T19:55:19 EET" name="UserCanUpdateKpi" finished-at="2022-05-12T19:55:24 EET" duration-ms="5171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanUpdateKpi -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UpdateKpiTest@239a307b]" started-at="2022-05-12T19:55:24 EET" name="screenshotOnFailure" finished-at="2022-05-12T19:55:24 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanUpdateKpi status=SUCCESS method=UpdateKpiTest.UserCanUpdateKpi()[pri:2, instance:tests.UpdateKpiTest@239a307b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+      </class> <!-- tests.UpdateKpiTest -->
+      <class name="tests.GeneralSettingTest">
+        <test-method signature="GetToAddKpiPage()[pri:0, instance:tests.GeneralSettingTest@7bd7d6d6]" started-at="2022-05-12T19:55:04 EET" name="GetToAddKpiPage" finished-at="2022-05-12T19:55:13 EET" duration-ms="9345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetToAddKpiPage -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.GeneralSettingTest@7bd7d6d6]" started-at="2022-05-12T19:55:13 EET" name="screenshotOnFailure" finished-at="2022-05-12T19:55:13 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetToAddKpiPage status=SUCCESS method=GeneralSettingTest.GetToAddKpiPage()[pri:0, instance:tests.GeneralSettingTest@7bd7d6d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+      </class> <!-- tests.GeneralSettingTest -->
+    </test> <!-- Test Regression -->
+  </suite> <!-- KPI Regression Suite -->
+</testng-results>

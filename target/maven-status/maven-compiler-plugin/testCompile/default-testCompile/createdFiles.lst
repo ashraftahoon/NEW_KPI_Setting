@@ -1,0 +1,5 @@
+tests\BaseTest.class
+tests\GeneralSettingTest.class
+tests\AddKPiSettingTest.class
+tests\LoginTest.class
+tests\UpdateKpiTest.class

@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite  name="KPI Regression Suite">
+  <listeners >
+   	 <listener class-name="listeners.ExtentReportManager" />
+  </listeners>
+  <test name="Test Regression" preserve-order="true" >
+	  
+    <classes>
+      <class name="tests.LoginTest"/>
+      <class name="tests.GeneralSettingTest"/>
+       <class name="tests.AddKPiSettingTest"/>
+      <class name="tests.UpdateKpiTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite>

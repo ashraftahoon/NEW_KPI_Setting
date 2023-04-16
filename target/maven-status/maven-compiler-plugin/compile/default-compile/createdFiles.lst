@@ -1,0 +1,8 @@
+utilties\Helper.class
+utilties\JsonDataReader.class
+pages\UpdateKpiPage.class
+pages\LoginPage.class
+pages\HomePage.class
+pages\PageBase.class
+pages\AddKPiSettingsPage.class
+pages\GeneralSettingPage.class
